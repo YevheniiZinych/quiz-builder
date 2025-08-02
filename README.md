@@ -10,13 +10,12 @@ Make sure you have PostgreSQL running. Create a database (for example, quizdb)
 
 To /backend/.env set your database credentials
 
-POSTGRES_HOST=localhost
-POSTGRES_PORT=5432
-POSTGRES_USER=postgres
-POSTGRES_PASSWORD=your_password
-POSTGRES_DB=quizdb
-
-PORT=your_port
+- POSTGRES_HOST=localhost
+- POSTGRES_PORT=5432
+- POSTGRES_USER=postgres
+- POSTGRES_PASSWORD=your_password
+- POSTGRES_DB=quizdb
+- PORT=your_port
 
 Start the backend
 
