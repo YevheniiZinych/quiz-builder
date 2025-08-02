@@ -24,7 +24,7 @@ Start the backend
 
 The backend will be running at default http://localhost:3000
 
-To /frontend/.env set your database credentials
+To /frontend/.env set your localhost credentials
 
 - VITE_BASE_URL=your_local_host
 
