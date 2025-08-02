@@ -4,7 +4,7 @@ A simple full-stack Quiz Builder app using NestJS backend and React frontend.
 
 Clone the repository and enter the project directory:
 
-git clone https://github.com/your-username/quiz-builder.git
+git clone https://github.com/YevheniiZinych/quiz-builder.git
 
 Make sure you have PostgreSQL running. Create a database (for example, quizdb)
 
