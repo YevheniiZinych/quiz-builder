@@ -7,6 +7,7 @@ const Home = lazy(() => import("./pages/Home/Home"));
 const CreateQuiz = lazy(() => import("./pages/CreateQuiz/CreateQuiz"));
 const QuizList = lazy(() => import("./pages/QuizList/QuizList"));
 const QuizDetails = lazy(() => import("./pages/QuizDetails/QuizDetails"));
+const NotFound = lazy(() => import("./pages/NotFound/NotFound"));
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/quizzes" element={<QuizList />} />
           <Route path="/quizzes/:id" element={<QuizDetails />} />
         </Route>
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </>
   );
